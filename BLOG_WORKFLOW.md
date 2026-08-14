@@ -95,6 +95,21 @@ plutôt que de l'inventer.
 - Salon : samedi 19 septembre 2026, 10h-18h, Château d'Orleix, entrée gratuite.
 - Contact : 06 76 67 37 72 — occitanpro@gmail.com
 
+### ⚠️ Incohérences à trancher avec le client (non corrigées à ce jour)
+
+Deux informations diffèrent d'une page à l'autre du site. **Ne pas les corriger sans validation du
+client** : en attendant l'arbitrage, utiliser dans les articles la formulation prudente indiquée
+en 3ᵉ colonne.
+
+| Information | Ce que disent les pages | Formulation à utiliser en attendant |
+|---|---|---|
+| Fréquence des réunions | `index.html` : « une fois par mois, le jeudi » — `principe.html` : « le dernier jeudi de chaque mois » | « une fois par mois, le jeudi » |
+| Nombre de membres | `entreprises.html` et le JSON-LD de `index.html` : 20 — `principe.html` : « ~25 membres actifs » | « une vingtaine d'entrepreneurs » |
+
+Une fois l'arbitrage rendu, harmoniser les pages concernées **et** les contenus du blog déjà publiés
+(`/blog/<slug>/index.html`, section FAQ visible **et** JSON-LD `FAQPage`, qui doivent rester identiques
+mot pour mot), ainsi que `llms.txt`.
+
 ---
 
 ## 4. NAP (à garder identique partout)
