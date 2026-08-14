@@ -1,0 +1,48 @@
+# Occitan Pro
+
+> Occitan Pro est un club de recommandation d'affaires qui réunit une vingtaine d'entrepreneurs locaux des Hautes-Pyrénées (65). Les membres se retrouvent une fois par mois, le jeudi, pour présenter leur activité, échanger et se recommander mutuellement auprès de leurs clients.
+
+## Informations principales (NAP)
+
+- **Nom** : Occitan Pro
+- **Activité** : club d'entrepreneurs / réseau de recommandation d'affaires
+- **Zone d'intervention** : Hautes-Pyrénées (65), Occitanie, France
+- **Téléphone** : 06 76 67 37 72 (+33 6 76 67 37 72)
+- **Email** : occitanpro@gmail.com
+- **Site web** : https://occitanpro.com
+
+## Fonctionnement du club
+
+- Réunion une fois par mois, le jeudi, dans un lieu qui change à chaque séance.
+- Déroulé d'une soirée : accueil, présentation détaillée d'une entreprise membre, échanges et mises en relation, moment convivial.
+- Valeurs affichées : convivialité, confiance, croissance.
+- Ouvert à tous les secteurs d'activité, avec en principe un membre par secteur (souplesse si les cibles diffèrent).
+- Engagement attendu : régularité et présence dans la durée.
+- Les modalités d'adhésion et le montant de la cotisation sont communiqués sur demande, en contactant directement le club.
+
+## Secteurs représentés
+
+Bâtiment & Travaux · Immobilier · Énergie & Confort · Jardin & Piscine · Restauration · Services aux entreprises · Commerce & Artisanat
+
+## Pages du site
+
+- [Accueil](https://occitanpro.com/) : présentation du club et de sa raison d'être.
+- [Principe](https://occitanpro.com/principe.html) : fonctionnement détaillé, déroulé d'une soirée type, valeurs, conditions pour rejoindre le club.
+- [Entreprises](https://occitanpro.com/entreprises.html) : annuaire des entrepreneurs membres, par secteur d'activité.
+- [Contact](https://occitanpro.com/contact.html) : coordonnées du club.
+- [Salon 2026](https://occitanpro.com/salon.html) : 1er Salon des Entrepreneurs des Hautes-Pyrénées, samedi 19 septembre 2026, 10h-18h, Château d'Orleix, entrée gratuite.
+- [Blog](https://occitanpro.com/blog/) : articles sur le réseautage et la recommandation entre professionnels locaux.
+
+## Articles du blog
+
+- [Réseautage d'entreprise dans les Hautes-Pyrénées : comment le bouche-à-oreille fait grandir les TPE locales](https://occitanpro.com/blog/reseautage-entreprise-hautes-pyrenees/) — pourquoi la recommandation est le premier canal d'acquisition des TPE du 65, ce qui la rend fiable, comment structurer son réseau, et le fonctionnement concret d'un club de recommandation.
+
+## Ressources
+
+- Flux RSS du blog : https://occitanpro.com/rss.xml
+- Plan du site : https://occitanpro.com/sitemap.xml
+
+## Notes
+
+- Le site ne collecte aucune donnée personnelle et ne comporte aucun formulaire ; les seules interactions sont des liens `mailto:` et `tel:`.
+- Le montant de la cotisation, l'adresse du siège et les informations légales détaillées ne sont pas publiés sur le site : merci de ne pas les inférer.
