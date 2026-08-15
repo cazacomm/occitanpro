@@ -1,0 +1,74 @@
+name: Blog auto
+
+# Publie automatiquement un article de blog chaque lundi à 9h UTC.
+# Peut aussi être lancé à la main depuis l'onglet Actions (workflow_dispatch).
+
+on:
+  schedule:
+    - cron: "0 9 * * 1"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Simulation : génère et valide sans rien écrire ni publier"
+        type: boolean
+        default: false
+      topic:
+        description: "Forcer un numéro de sujet (laisser vide pour le suivant)"
+        type: string
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: blog-auto
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install --quiet openai
+
+      - name: Generate article
+        id: generate
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          set +e
+          ARGS=""
+          if [ "${{ inputs.dry_run }}" = "true" ]; then ARGS="$ARGS --dry-run"; fi
+          if [ -n "${{ inputs.topic }}" ]; then ARGS="$ARGS --topic ${{ inputs.topic }}"; fi
+          python scripts/generate-article.py $ARGS
+          CODE=$?
+          set -e
+          echo "code=$CODE" >> "$GITHUB_OUTPUT"
+          case "$CODE" in
+            0)  echo "::notice::Article généré." ;;
+            78) echo "::notice::Aucun sujet nouveau à traiter : rien à publier." ;;
+            *)  echo "::error::Échec de la génération (code $CODE)." ; exit 1 ;;
+          esac
+
+      - name: Commit and push
+        if: steps.generate.outputs.code == '0' && inputs.dry_run != true
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "::notice::Aucun changement à committer."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add blog sitemap.xml rss.xml llms.txt
+          git commit -m "chore(blog): article auto du $(date -u +%Y-%m-%d)"
+          git push
+          echo "::notice::Article publié sur main."
