@@ -4,58 +4,45 @@
   "sector": "club d'entrepreneurs et réseau d'affaires local",
   "location": "Hautes-Pyrénées (Tarbes, Orleix)",
   "geo_keywords": [
-    "Hautes-Pyrénées",
-    "65",
     "Tarbes",
     "Orleix",
+    "Hautes-Pyrénées",
     "Bigorre",
-    "Occitanie",
     "vallée de l'Adour",
+    "Occitanie",
+    "65000",
     "club d'entrepreneurs Hautes-Pyrénées",
     "réseau d'affaires Tarbes",
-    "recommandation entre professionnels"
+    "recommandation entre professionnels",
+    "TPE locales",
+    "artisans du 65"
   ],
   "tone": "expert-conseil, factuel, chaleureux, sans jargon inutile",
   "author": "Occitan Pro",
   "target_word_count": 1300,
   "faq_questions_count": 5,
   "language": "fr",
-
-  "openai_model": "gpt-4o-mini",
-  "openai_temperature": 0.7,
-
-  "reference_article": "blog/reseautage-entreprise-hautes-pyrenees/index.html",
+  "model": "gpt-4o",
+  "temperature": 0.7,
   "topic_marker_prefix": "occitanpro-topic",
-  "workflow_doc": "BLOG_WORKFLOW.md",
-
-  "cover_images": [
-    "assets/affaires.jpg",
-    "assets/contact.jpg",
-    "assets/hero1.jpg",
-    "assets/hero2.jpg",
-    "assets/hero3.jpg",
-    "assets/hero4.jpg",
-    "assets/hero5.jpg",
-    "assets/adobestock-by-studio-gavarnie2.jpg"
+  "og_image": "/assets/affaires.jpg",
+  "logo_path": "/assets/logo.jpg",
+  "default_article_section": "Réseau local",
+  "internal_link_targets": [
+    "/principe.html",
+    "/entreprises.html",
+    "/contact.html"
   ],
-
+  "reference_article_slug": "reseautage-entreprise-hautes-pyrenees",
   "facts": [
-    "Le club réunit une vingtaine d'entrepreneurs des Hautes-Pyrénées.",
-    "Les membres se retrouvent une fois par mois, le jeudi, dans un lieu qui change à chaque réunion.",
-    "Déroulé d'une soirée : accueil, présentation détaillée d'une entreprise membre, échanges et mises en relation, moment convivial.",
-    "Valeurs du club : convivialité, confiance, croissance.",
-    "Le club accueille en principe un membre par secteur d'activité, avec de la souplesse si les cibles diffèrent.",
+    "Le club Occitan Pro réunit une vingtaine d'entrepreneurs des Hautes-Pyrénées.",
+    "Les membres se retrouvent une fois par mois, le jeudi, dans un lieu qui change à chaque réunion — souvent chez l'un des membres ou dans un espace local partenaire.",
+    "Déroulé d'une soirée : accueil, présentation détaillée de son activité par une entreprise membre, échanges et mises en relation, puis moment convivial.",
+    "Valeurs affichées par le club : convivialité, confiance, croissance.",
+    "Le club accueille en principe un membre par secteur d'activité, avec de la souplesse lorsque deux entreprises d'un même domaine visent des clientèles différentes.",
     "Secteurs représentés : bâtiment et travaux, immobilier, énergie et confort, jardin et piscine, restauration, services aux entreprises, commerce et artisanat.",
-    "Salon Occitan Pro : samedi 19 septembre 2026, 10h-18h, Château d'Orleix, entrée gratuite.",
-    "Contact du club : 06 76 67 37 72 et occitanpro@gmail.com.",
-    "Les modalités d'adhésion et le montant de la cotisation ne sont pas publiés et sont communiqués sur demande."
-  ],
-
-  "internal_links": [
-    { "href": "../../index.html", "label": "l'accueil du site Occitan Pro" },
-    { "href": "../../principe.html", "label": "le principe du club" },
-    { "href": "../../entreprises.html", "label": "les entrepreneurs membres" },
-    { "href": "../../contact.html", "label": "contacter le club" },
-    { "href": "../../salon.html", "label": "le Salon Occitan Pro du 19 septembre 2026" }
+    "Salon Occitan Pro : samedi 19 septembre 2026, de 10h à 18h, au Château d'Orleix, entrée gratuite.",
+    "Contact du club : téléphone 06 76 67 37 72, email occitanpro@gmail.com.",
+    "Le montant de la cotisation et les modalités d'adhésion ne sont pas publiés : ils sont communiqués sur demande, en contactant le club."
   ]
 }

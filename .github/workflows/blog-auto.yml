@@ -1,20 +1,19 @@
-name: Blog auto
-
-# Publie automatiquement un article de blog chaque lundi à 9h UTC.
-# Peut aussi être lancé à la main depuis l'onglet Actions (workflow_dispatch).
+name: Blog auto — Occitan Pro
 
 on:
   schedule:
+    # Tous les lundis à 9h00 UTC (11h en heure d'été française, 10h en hiver).
     - cron: "0 9 * * 1"
   workflow_dispatch:
     inputs:
       dry_run:
-        description: "Simulation : génère et valide sans rien écrire ni publier"
+        description: "Simulation : génère l'article mais n'écrit et ne pousse rien"
         type: boolean
         default: false
-      topic:
-        description: "Forcer un numéro de sujet (laisser vide pour le suivant)"
+      rewrite:
+        description: "Slug d'un article existant à régénérer (laisser vide pour publier le sujet suivant)"
         type: string
+        required: false
         default: ""
 
 permissions:
@@ -25,50 +24,79 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  publish:
+  generate:
+    name: Génération et publication d'un article
     runs-on: ubuntu-latest
+    timeout-minutes: 15
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Python 3.11
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - name: Install dependencies
-        run: pip install --quiet openai
+      - name: Installation des dépendances
+        run: |
+          python -m pip install --upgrade pip
+          pip install openai
 
-      - name: Generate article
+      - name: Génération de l'article
         id: generate
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
           set +e
-          ARGS=""
-          if [ "${{ inputs.dry_run }}" = "true" ]; then ARGS="$ARGS --dry-run"; fi
-          if [ -n "${{ inputs.topic }}" ]; then ARGS="$ARGS --topic ${{ inputs.topic }}"; fi
-          python scripts/generate-article.py $ARGS
-          CODE=$?
+          args=""
+          if [ -n "${{ inputs.rewrite }}" ]; then
+            args="--rewrite ${{ inputs.rewrite }}"
+          fi
+          if [ "${{ inputs.dry_run }}" = "true" ]; then
+            python scripts/generate-article.py --dry-run $args
+          else
+            python scripts/generate-article.py $args
+          fi
+          code=$?
           set -e
-          echo "code=$CODE" >> "$GITHUB_OUTPUT"
-          case "$CODE" in
-            0)  echo "::notice::Article généré." ;;
-            78) echo "::notice::Aucun sujet nouveau à traiter : rien à publier." ;;
-            *)  echo "::error::Échec de la génération (code $CODE)." ; exit 1 ;;
+          echo "exit_code=$code" >> "$GITHUB_OUTPUT"
+          case $code in
+            0)  echo "Article généré." ;;
+            78) echo "::notice::Aucun nouveau sujet à traiter — arrêt propre." ;;
+            *)  echo "::error::Échec de la génération (code $code)." ; exit $code ;;
           esac
 
-      - name: Commit and push
-        if: steps.generate.outputs.code == '0' && inputs.dry_run != true
+      - name: Commit et push
+        if: steps.generate.outputs.exit_code == '0' && inputs.dry_run != true
         run: |
           if [ -z "$(git status --porcelain)" ]; then
-            echo "::notice::Aucun changement à committer."
+            echo "::notice::Aucune modification à committer."
             exit 0
           fi
-          git config user.name "github-actions[bot]"
+          git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add blog sitemap.xml rss.xml llms.txt
-          git commit -m "chore(blog): article auto du $(date -u +%Y-%m-%d)"
-          git push
-          echo "::notice::Article publié sur main."
+          git add -A
+          if [ -n "${{ inputs.rewrite }}" ]; then
+            msg="chore(blog): reecriture de ${{ inputs.rewrite }}"
+          else
+            msg="chore(blog): article auto du $(date -u +%Y-%m-%d)"
+          fi
+          git commit -m "$msg"
+          git push origin HEAD:${GITHUB_REF_NAME}
+          echo "::notice::Article publié et poussé."
+
+      - name: Récapitulatif
+        if: always()
+        run: |
+          {
+            echo "### Blog auto — Occitan Pro"
+            echo ""
+            echo "- Code de sortie du script : \`${{ steps.generate.outputs.exit_code }}\`"
+            echo "- Simulation : \`${{ inputs.dry_run || 'false' }}\`"
+            echo "- Réécriture : \`${{ inputs.rewrite || '(aucune)' }}\`"
+            echo ""
+            echo "Codes : \`0\` succès · \`78\` aucun sujet restant · \`1\` erreur."
+          } >> "$GITHUB_STEP_SUMMARY"
