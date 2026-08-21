@@ -6,13 +6,22 @@
     <description>Réseautage, recommandation entre professionnels et vie du club d'entrepreneurs des Hautes-Pyrénées.</description>
     <language>fr-FR</language>
     <copyright>Occitan Pro</copyright>
-    <lastBuildDate>Fri, 14 Aug 2026 09:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 09:00:00 +0200</lastBuildDate>
     <atom:link href="https://occitanpro.com/rss.xml" rel="self" type="application/rss+xml" />
     <image>
       <url>https://occitanpro.com/assets/logo.jpg</url>
       <title>Blog Occitan Pro</title>
       <link>https://occitanpro.com/blog/</link>
     </image>
+
+    <item>
+      <title>Choisir un artisan de confiance en Bigorre</title>
+      <link>https://occitanpro.com/blog/comment-choisir-artisan-confiance-hautes-pyrenees/</link>
+      <guid isPermaLink="true">https://occitanpro.com/blog/comment-choisir-artisan-confiance-hautes-pyrenees/</guid>
+      <pubDate>Fri, 21 Aug 2026 09:00:00 +0200</pubDate>
+      <category>Réseau local</category>
+      <description>Choisir un artisan de confiance dans les Hautes-Pyrénées, que ce soit à Tarbes ou Orleix, est crucial pour la réussite de vos projets. La recommandation entre professionnels et les questions pertinentes à poser sont des outils essentiels. Dans cet article, nous vous guiderons à travers les signaux qui rassurent et…</description>
+    </item>
 
     <item>
       <title>Réseautage d'entreprise dans les Hautes-Pyrénées : comment le bouche-à-oreille fait grandir les TPE locales</title>
