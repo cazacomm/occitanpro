@@ -92,7 +92,7 @@ plutôt que de l'inventer.
 - Déroulé : accueil → présentation d'un membre → échanges → convivialité.
 - Valeurs : convivialité, confiance, croissance.
 - En principe un membre par secteur, avec souplesse.
-- Salon : samedi 19 septembre 2026, 10h-18h, Château d'Orleix, entrée gratuite.
+- Salon : samedi 19 septembre 2026, 10h-18h, au 35e RAP (quartier Soult, place de la Courte Boule, 65000 Tarbes), entrée gratuite.
 - Contact : 06 76 67 37 72 — occitanpro@gmail.com
 
 ### ⚠️ Incohérences à trancher avec le client (non corrigées à ce jour)
