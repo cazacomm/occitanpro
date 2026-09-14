@@ -38,7 +38,7 @@
 
   <url>
     <loc>https://occitanpro.com/blog/</loc>
-    <lastmod>2026-09-07</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -74,6 +74,13 @@
   <url>
     <loc>https://occitanpro.com/blog/etre-independant-65-comment-sortir-isolement-professionnel/</loc>
     <lastmod>2026-09-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://occitanpro.com/blog/preparer-salon-professionnel-local-quand-tpe/</loc>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

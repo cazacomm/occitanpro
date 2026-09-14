@@ -6,13 +6,22 @@
     <description>Réseautage, recommandation entre professionnels et vie du club d'entrepreneurs des Hautes-Pyrénées.</description>
     <language>fr-FR</language>
     <copyright>Occitan Pro</copyright>
-    <lastBuildDate>Mon, 07 Sep 2026 09:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 09:00:00 +0200</lastBuildDate>
     <atom:link href="https://occitanpro.com/rss.xml" rel="self" type="application/rss+xml" />
     <image>
       <url>https://occitanpro.com/assets/logo.jpg</url>
       <title>Blog Occitan Pro</title>
       <link>https://occitanpro.com/blog/</link>
     </image>
+
+    <item>
+      <title>Préparer un Salon Pro pour TPE</title>
+      <link>https://occitanpro.com/blog/preparer-salon-professionnel-local-quand-tpe/</link>
+      <guid isPermaLink="true">https://occitanpro.com/blog/preparer-salon-professionnel-local-quand-tpe/</guid>
+      <pubDate>Mon, 14 Sep 2026 09:00:00 +0200</pubDate>
+      <category>Réseau local</category>
+      <description>Participer à un salon professionnel est une opportunité en or pour une TPE des Hautes-Pyrénées. C'est l'occasion de se faire connaître, de rencontrer des partenaires potentiels et de s'ancrer dans le réseau local. Pour préparer cet événement, il est crucial d'avoir des objectifs clairs, un stand attrayant et une…</description>
+    </item>
 
     <item>
       <title>Briser l'isolement professionnel dans le 65</title>
