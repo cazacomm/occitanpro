@@ -31,10 +31,14 @@ export OPENAI_API_KEY="sk-..."
 python3 scripts/generate-article.py --dry-run   # simulation, aucun fichier touché
 python3 scripts/generate-article.py             # génère et écrit (à committer soi-même)
 python3 scripts/generate-article.py --mock      # teste la tuyauterie sans appeler l'API
+python3 scripts/generate-article.py --topics-only   # recharge la réserve de sujets, sans article
 ```
 
 `--mock` ne produit **aucun contenu éditorial réel** : il recopie le gabarit pour vérifier
 que le choix du sujet, la validation et les mises à jour de fichiers fonctionnent.
+Attention, `--mock` **écrit et committe** comme un run normal (article, et sujets de
+démonstration si la réserve est basse) : pour n'exercer que la tuyauterie sans rien
+toucher, combiner avec `--dry-run`.
 
 ## 3. Codes de sortie
 
@@ -180,16 +184,42 @@ la relecture humaine.
 Pour vérifier la consommation réelle : les logs du workflow affichent le décompte exact
 des tokens de chaque exécution (`[blog] Tokens : … entrée + … sortie = …`).
 
-## 7. Ajouter des sujets
+## 7. Réserve de sujets (réapprovisionnement automatique)
 
-La réserve de sujets est la section **« 12 sujets d'articles suggérés »** de
-[`BLOG_WORKFLOW.md`](../BLOG_WORKFLOW.md). Quand elle est épuisée, le workflow sort en
-code 78 chaque lundi sans rien casser. Il suffit d'ajouter des lignes numérotées au même
-format pour relancer la machine :
+La réserve est la section **« Sujets d'articles suggérés »** de
+[`BLOG_WORKFLOW.md`](../BLOG_WORKFLOW.md). **Elle se recharge toute seule** : il n'y a plus
+à y penser tant que le blog tourne.
+
+| Réglage | Valeur | Rôle |
+|---|---|---|
+| `TOPIC_RESERVE_MIN` | 8 | En dessous de ce nombre de sujets non traités, on regarnit |
+| `TOPIC_BATCH` | 40 | Nombre de sujets demandés par réapprovisionnement |
+| `TOPIC_MAX_CALLS` | 2 | Plafond d'appels OpenAI pour un réapprovisionnement |
+| `TOPICS_MODEL` | `gpt-4o` | Modèle des sujets, indépendant de celui des articles |
+
+**Comment ça marche.** `topic_is_pending()` est la définition *unique* d'un « sujet non
+traité » — le comptage de la réserve et le choix du sujet de la semaine passent tous deux
+par elle, elles ne peuvent donc pas diverger. Si la réserve est sous le seuil,
+`replenish_topics()` demande un lot à OpenAI en lui donnant la liste des sujets déjà
+présents, filtre les doublons **sur le slug** (la clé d'idempotence du pipeline, et non sur
+le titre : deux titres différents qui produisent le même slug sont bien un doublon), puis
+`append_topics_to_workflow()` écrit les sujets à la fin de la liste, numérotation continue,
+au format exact des sujets existants :
 
 ```markdown
 13. **Titre du sujet** — angle, intention de recherche visée.
 ```
+
+Le slug n'est pas écrit dans la liste : il est déduit du titre par `slugify()`, exactement
+comme pour les sujets d'origine.
+
+**Dans le workflow**, le réapprovisionnement est une étape *séparée et antérieure* à la
+génération de l'article, suivie d'un push immédiat : si l'article échoue ensuite, les
+sujets déjà produits sont acquis et ne sont pas reperdus. Un échec du réapprovisionnement
+passe en `::warning::` et le job continue avec la réserve existante — il ne bloque jamais
+la publication.
+
+Ajouter des sujets à la main reste possible : même format, à la suite de la liste.
 
 ## 8. Relecture
 

@@ -134,9 +134,10 @@ doivent utiliser `https://occitanpro.com/…` sans `www.`.
 
 ---
 
-## 6. 12 sujets d'articles suggérés
+## 6. Sujets d'articles suggérés
 
 Tous ancrés local (Hautes-Pyrénées / Tarbes / Bigorre) et rédigeables **sans inventer aucun chiffre**.
+La liste se recharge toute seule : voir `scripts/README.md`, § « Réserve de sujets ».
 
 1. **Comment choisir un artisan de confiance dans les Hautes-Pyrénées** — les signaux qui rassurent, les questions à poser, pourquoi la recommandation reste le meilleur filtre.
 2. **Rejoindre un club d'entrepreneurs à Tarbes : à quoi s'attendre les 6 premiers mois** — le rythme réel, ce qui se passe avant les premiers résultats.
