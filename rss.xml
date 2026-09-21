@@ -6,13 +6,22 @@
     <description>Réseautage, recommandation entre professionnels et vie du club d'entrepreneurs des Hautes-Pyrénées.</description>
     <language>fr-FR</language>
     <copyright>Occitan Pro</copyright>
-    <lastBuildDate>Mon, 14 Sep 2026 09:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 21 Sep 2026 09:00:00 +0200</lastBuildDate>
     <atom:link href="https://occitanpro.com/rss.xml" rel="self" type="application/rss+xml" />
     <image>
       <url>https://occitanpro.com/assets/logo.jpg</url>
       <title>Blog Occitan Pro</title>
       <link>https://occitanpro.com/blog/</link>
     </image>
+
+    <item>
+      <title>Recommander sans se griller entre pros</title>
+      <link>https://occitanpro.com/blog/recommander-griller-guide-mise-relation-entre-pros/</link>
+      <guid isPermaLink="true">https://occitanpro.com/blog/recommander-griller-guide-mise-relation-entre-pros/</guid>
+      <pubDate>Mon, 21 Sep 2026 09:00:00 +0200</pubDate>
+      <category>Réseau local</category>
+      <description>Recommander un professionnel peut être un atout précieux dans le développement de votre réseau, surtout dans une région dynamique comme les Hautes-Pyrénées. Cependant, cela comporte aussi des risques si les choses ne se passent pas comme prévu. Cet article vous guide sur les meilleures pratiques pour recommander en…</description>
+    </item>
 
     <item>
       <title>Préparer un Salon Pro pour TPE</title>

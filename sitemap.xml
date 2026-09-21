@@ -38,7 +38,7 @@
 
   <url>
     <loc>https://occitanpro.com/blog/</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-09-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -81,6 +81,13 @@
   <url>
     <loc>https://occitanpro.com/blog/preparer-salon-professionnel-local-quand-tpe/</loc>
     <lastmod>2026-09-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://occitanpro.com/blog/recommander-griller-guide-mise-relation-entre-pros/</loc>
+    <lastmod>2026-09-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
