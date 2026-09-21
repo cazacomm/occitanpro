@@ -151,6 +151,46 @@ La liste se recharge toute seule : voir `scripts/README.md`, § « Réserve de s
 10. **Le premier rendez-vous client : ce que les artisans du club font systématiquement** — écoute, cadrage du besoin, transparence sur ce qu'on ne fait pas.
 11. **Développer son activité sans budget publicitaire : les canaux qui marchent en zone rurale** — réseau, visibilité locale, avis, présence terrain.
 12. **Portrait de membre : le format « entrepreneur du mois »** — gabarit récurrent pour mettre en avant un membre du club (à valider avec la personne concernée avant publication).
+13. **Les avantages de rejoindre un réseau d'affaires à Orleix** — Découvrir les bénéfices concrets pour les entrepreneurs locaux.
+14. **Comment organiser un événement professionnel à Tarbes** — Conseils pratiques pour réussir l'organisation d'événements d'affaires.
+15. **Les erreurs courantes des entrepreneurs débutants en Bigorre** — Identifier et éviter les pièges fréquents pour les nouveaux entrepreneurs.
+16. **Le rôle des clubs d'entrepreneurs dans la vallée de l'Adour** — Comprendre l'impact des clubs sur le développement des affaires locales.
+17. **Comment optimiser son réseau professionnel dans les Hautes-Pyrénées** — Stratégies pour étendre efficacement son réseau local.
+18. **Les atouts d'une TPE artisanale dans le 65** — Analyser les forces spécifiques des petites entreprises artisanales locales.
+19. **Développer une stratégie de recommandation en Occitanie** — Méthodes pour créer un système de recommandations efficace.
+20. **Les métiers d'artisanat florissants dans les Hautes-Pyrénées** — Explorer les métiers artisanaux en plein essor dans la région.
+21. **Comment choisir un partenaire d'affaires local à Tarbes** — Critères pour sélectionner des partenaires commerciaux solides.
+22. **Valoriser son savoir-faire artisanal dans le réseau local** — Techniques pour mettre en avant ses compétences artisanales.
+23. **Pourquoi intégrer un club d'entrepreneurs dans le 65000** — Découvrir les raisons et avantages d'adhérer à un club local.
+24. **Créer des synergies professionnelles en vallée de l'Adour** — Identifier des opportunités de collaboration entre entrepreneurs.
+25. **L'impact du bouche-à-oreille pour les TPE de Tarbes** — Analyse de l'importance du bouche-à-oreille pour les petites entreprises.
+26. **Organiser un atelier collaboratif dans les Hautes-Pyrénées** — Étapes pour mettre en place un atelier efficace et participatif.
+27. **Les spécificités du marché local pour les artisans du 65** — Comprendre les particularités du marché des artisans locaux.
+28. **Le guide pour réseauter efficacement à Orleix** — Conseils pour optimiser ses rencontres professionnelles.
+29. **Comment développer sa visibilité en Bigorre** — Stratégies pour accroître la notoriété de son entreprise localement.
+30. **Les avantages des réunions de réseau dans les Hautes-Pyrénées** — Découvrir les bénéfices des rencontres régulières entre entrepreneurs.
+31. **La dynamique des clubs d'entrepreneurs en Occitanie** — Analyse de l'évolution des clubs et leur influence sur le tissu économique.
+32. **Comment fidéliser sa clientèle dans le 65** — Techniques pour maintenir et renforcer la relation avec ses clients.
+33. **Les secteurs d'activité porteurs en vallée de l'Adour** — Explorer les domaines économiques en croissance dans la région.
+34. **Les bonnes pratiques pour un pitch efficace à Tarbes** — Techniques pour réussir sa présentation en milieu professionnel.
+35. **Créer un réseau d'entraide entre artisans de Bigorre** — Mettre en place un système de soutien mutuel entre professionnels.
+36. **Les clés pour réussir une collaboration inter-entreprises à Orleix** — Éléments essentiels pour une coopération fructueuse entre entreprises.
+37. **Comment utiliser le digital pour développer son réseau à Tarbes** — Astuces pour tirer parti des outils numériques dans le réseautage.
+38. **Les initiatives locales qui boostent l'entrepreneuriat en Hautes-Pyrénées** — Découverte des programmes et soutiens locaux pour entrepreneurs.
+39. **Développer une stratégie de communication locale en Occitanie** — Élaborer un plan de communication adapté au territoire.
+40. **Les avantages de l'économie circulaire pour les TPE de Bigorre** — Comprendre les bénéfices de l'économie circulaire pour les petites entreprises locales.
+41. **Comment gérer sa croissance en tant qu'artisan dans le 65** — Stratégies pour un développement maîtrisé de son activité artisanale.
+42. **Les tendances entrepreneuriales à surveiller en vallée de l'Adour** — Identifier les courants émergents dans le monde des affaires local.
+43. **Comment valoriser son entreprise lors d'un événement à Tarbes** — Techniques pour maximiser la visibilité de sa marque lors d'événements.
+44. **Les ressources locales pour les entrepreneurs débutants en Hautes-Pyrénées** — Découverte des aides et accompagnements disponibles pour les novices.
+45. **Les étapes pour réussir une transition numérique à Orleix** — Guide pour intégrer efficacement le numérique dans son entreprise.
+46. **Comment adapter son offre aux besoins locaux en Bigorre** — Stratégies pour ajuster ses produits ou services aux attentes régionales.
+47. **La gestion du temps pour les entrepreneurs de Tarbes** — Techniques pour optimiser son emploi du temps et gagner en efficacité.
+48. **Comment renforcer la solidarité entre entrepreneurs en 65000** — Initiatives pour favoriser l'entraide au sein du réseau local.
+49. **Les bénéfices de la formation continue pour les artisans du 65** — Importance de l'apprentissage permanent pour maintenir sa compétitivité.
+50. **Comment structurer son business plan pour le marché local** — Éléments clés pour adapter son plan d'affaires au contexte régional.
+51. **Les opportunités d'expansion pour les TPE dans les Hautes-Pyrénées** — Exploration des possibilités de croissance pour les petites entreprises locales.
+52. **Les défis de la reconversion professionnelle à Tarbes** — Astuces pour réussir sa transition vers un nouveau métier dans la région.
 
 ---
 
