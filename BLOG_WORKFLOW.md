@@ -69,7 +69,7 @@ URL finale d'un article : `https://occitanpro.com/blog/<slug>/`
 - Un seul `<h1>` (le titre de l'article), puis des `<h2>` et `<h3>` structurés.
 - Un chapô (`.article-lead`) de 3 à 5 lignes qui répond immédiatement à la question posée par le titre.
 - Une section FAQ de **5 questions**, en fin d'article, dupliquée en JSON-LD `FAQPage`.
-- Au moins 2 liens internes (vers `principe.html`, `entreprises.html`, `contact.html`, `salon.html` ou un autre article).
+- Au moins 2 liens internes (vers `principe.html`, `entreprises.html`, `contact.html` ou un autre article).
 - Un CTA de fin (`.article-cta`) avec téléphone + lien contact.
 
 **Ancrage local (SEO/GEO)**
@@ -92,7 +92,6 @@ plutôt que de l'inventer.
 - Déroulé : accueil → présentation d'un membre → échanges → convivialité.
 - Valeurs : convivialité, confiance, croissance.
 - En principe un membre par secteur, avec souplesse.
-- Salon : samedi 19 septembre 2026, 10h-18h, au 35e RAP (quartier Soult, place de la Courte Boule, 65000 Tarbes), entrée gratuite.
 - Contact : 06 76 67 37 72 — occitanpro@gmail.com
 
 ### ⚠️ Incohérences à trancher avec le client (non corrigées à ce jour)
