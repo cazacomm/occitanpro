@@ -6,13 +6,22 @@
     <description>Réseautage, recommandation entre professionnels et vie du club d'entrepreneurs des Hautes-Pyrénées.</description>
     <language>fr-FR</language>
     <copyright>Occitan Pro</copyright>
-    <lastBuildDate>Mon, 21 Sep 2026 09:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 09:00:00 +0200</lastBuildDate>
     <atom:link href="https://occitanpro.com/rss.xml" rel="self" type="application/rss+xml" />
     <image>
       <url>https://occitanpro.com/assets/logo.jpg</url>
       <title>Blog Occitan Pro</title>
       <link>https://occitanpro.com/blog/</link>
     </image>
+
+    <item>
+      <title>Maîtrisez l'art de se présenter en 2 minutes</title>
+      <link>https://occitanpro.com/blog/presenter-2-minutes-exercice-change-reunion-reseau/</link>
+      <guid isPermaLink="true">https://occitanpro.com/blog/presenter-2-minutes-exercice-change-reunion-reseau/</guid>
+      <pubDate>Mon, 28 Sep 2026 09:00:00 +0200</pubDate>
+      <category>Réseau local</category>
+      <description>Dans le cadre dynamique du club d'entrepreneurs des Hautes-Pyrénées, savoir se présenter efficacement en quelques minutes est crucial. Ce temps limité vous permet de captiver votre auditoire, de souligner vos compétences et de montrer comment vous répondez aux besoins clients, plutôt que de simplement énoncer votre…</description>
+    </item>
 
     <item>
       <title>Recommander sans se griller entre pros</title>
