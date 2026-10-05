@@ -6,13 +6,22 @@
     <description>Réseautage, recommandation entre professionnels et vie du club d'entrepreneurs des Hautes-Pyrénées.</description>
     <language>fr-FR</language>
     <copyright>Occitan Pro</copyright>
-    <lastBuildDate>Mon, 28 Sep 2026 09:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 09:00:00 +0200</lastBuildDate>
     <atom:link href="https://occitanpro.com/rss.xml" rel="self" type="application/rss+xml" />
     <image>
       <url>https://occitanpro.com/assets/logo.jpg</url>
       <title>Blog Occitan Pro</title>
       <link>https://occitanpro.com/blog/</link>
     </image>
+
+    <item>
+      <title>Entretien de maison : calendrier saisonnier</title>
+      <link>https://occitanpro.com/blog/entretenir-maison-hautes-pyrenees-calendrier-saison-saison/</link>
+      <guid isPermaLink="true">https://occitanpro.com/blog/entretenir-maison-hautes-pyrenees-calendrier-saison-saison/</guid>
+      <pubDate>Mon, 05 Oct 2026 09:00:00 +0200</pubDate>
+      <category>Réseau local</category>
+      <description>Entretenir sa maison dans les Hautes-Pyrénées nécessite une planification précise pour chaque saison. En hiver, le froid peut endommager les installations extérieures, tandis que l'été invite à préparer son jardin. Dans cette région diversifiée, de Tarbes à Orleix, choisir le bon moment pour faire appel à un…</description>
+    </item>
 
     <item>
       <title>Maîtrisez l'art de se présenter en 2 minutes</title>
