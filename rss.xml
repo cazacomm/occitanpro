@@ -6,13 +6,22 @@
     <description>Réseautage, recommandation entre professionnels et vie du club d'entrepreneurs des Hautes-Pyrénées.</description>
     <language>fr-FR</language>
     <copyright>Occitan Pro</copyright>
-    <lastBuildDate>Mon, 05 Oct 2026 09:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 09:00:00 +0200</lastBuildDate>
     <atom:link href="https://occitanpro.com/rss.xml" rel="self" type="application/rss+xml" />
     <image>
       <url>https://occitanpro.com/assets/logo.jpg</url>
       <title>Blog Occitan Pro</title>
       <link>https://occitanpro.com/blog/</link>
     </image>
+
+    <item>
+      <title>La force de la recommandation entre entreprises locales</title>
+      <link>https://occitanpro.com/blog/pourquoi-entreprises-locales-recommandent-entre-elles-plutot/</link>
+      <guid isPermaLink="true">https://occitanpro.com/blog/pourquoi-entreprises-locales-recommandent-entre-elles-plutot/</guid>
+      <pubDate>Mon, 12 Oct 2026 09:00:00 +0200</pubDate>
+      <category>Réseau local</category>
+      <description>Dans les Hautes-Pyrénées, les entreprises locales, notamment au sein du club Occitan Pro, privilégient la recommandation mutuelle à la concurrence directe. Ce choix stratégique favorise la complémentarité des compétences et permet d'atteindre des clientèles variées sans se marcher sur les pieds. Un modèle qui prône…</description>
+    </item>
 
     <item>
       <title>Entretien de maison : calendrier saisonnier</title>
