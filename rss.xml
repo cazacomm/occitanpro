@@ -6,13 +6,22 @@
     <description>Réseautage, recommandation entre professionnels et vie du club d'entrepreneurs des Hautes-Pyrénées.</description>
     <language>fr-FR</language>
     <copyright>Occitan Pro</copyright>
-    <lastBuildDate>Mon, 12 Oct 2026 09:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 09:00:00 +0200</lastBuildDate>
     <atom:link href="https://occitanpro.com/rss.xml" rel="self" type="application/rss+xml" />
     <image>
       <url>https://occitanpro.com/assets/logo.jpg</url>
       <title>Blog Occitan Pro</title>
       <link>https://occitanpro.com/blog/</link>
     </image>
+
+    <item>
+      <title>Les clés d'un premier rendez-vous client réussi</title>
+      <link>https://occitanpro.com/blog/premier-rendez-vous-client-artisans-club-font/</link>
+      <guid isPermaLink="true">https://occitanpro.com/blog/premier-rendez-vous-client-artisans-club-font/</guid>
+      <pubDate>Mon, 19 Oct 2026 09:00:00 +0200</pubDate>
+      <category>Réseau local</category>
+      <description>Dans les Hautes-Pyrénées, le premier rendez-vous avec un client est crucial pour nos artisans du club Occitan Pro. Écoute attentive, cadrage précis des besoins et transparence sur les services proposés sont au cœur de leurs pratiques. Ces étapes essentielles assurent une relation de confiance et un partenariat…</description>
+    </item>
 
     <item>
       <title>La force de la recommandation entre entreprises locales</title>
