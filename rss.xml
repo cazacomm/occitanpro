@@ -6,13 +6,22 @@
     <description>Réseautage, recommandation entre professionnels et vie du club d'entrepreneurs des Hautes-Pyrénées.</description>
     <language>fr-FR</language>
     <copyright>Occitan Pro</copyright>
-    <lastBuildDate>Mon, 19 Oct 2026 09:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 09:00:00 +0200</lastBuildDate>
     <atom:link href="https://occitanpro.com/rss.xml" rel="self" type="application/rss+xml" />
     <image>
       <url>https://occitanpro.com/assets/logo.jpg</url>
       <title>Blog Occitan Pro</title>
       <link>https://occitanpro.com/blog/</link>
     </image>
+
+    <item>
+      <title>Stratégies efficaces pour booster votre activité locale</title>
+      <link>https://occitanpro.com/blog/developper-activite-budget-publicitaire-canaux-marchent-zone/</link>
+      <guid isPermaLink="true">https://occitanpro.com/blog/developper-activite-budget-publicitaire-canaux-marchent-zone/</guid>
+      <pubDate>Mon, 26 Oct 2026 09:00:00 +0200</pubDate>
+      <category>Réseau local</category>
+      <description>Vous êtes entrepreneur dans les Hautes-Pyrénées et cherchez à accroître votre activité sans recourir à la publicité payante ? Les solutions ne manquent pas, à commencer par l'exploitation de réseaux locaux et la mise en valeur de vos atouts géographiques. Du bouche-à-oreille à l'engagement communautaire, plusieurs…</description>
+    </item>
 
     <item>
       <title>Les clés d'un premier rendez-vous client réussi</title>
