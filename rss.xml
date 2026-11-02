@@ -6,13 +6,22 @@
     <description>Réseautage, recommandation entre professionnels et vie du club d'entrepreneurs des Hautes-Pyrénées.</description>
     <language>fr-FR</language>
     <copyright>Occitan Pro</copyright>
-    <lastBuildDate>Mon, 26 Oct 2026 09:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 09:00:00 +0200</lastBuildDate>
     <atom:link href="https://occitanpro.com/rss.xml" rel="self" type="application/rss+xml" />
     <image>
       <url>https://occitanpro.com/assets/logo.jpg</url>
       <title>Blog Occitan Pro</title>
       <link>https://occitanpro.com/blog/</link>
     </image>
+
+    <item>
+      <title>Membre du mois : Éclairons nos entrepreneurs locaux</title>
+      <link>https://occitanpro.com/blog/portrait-membre-format-entrepreneur-mois/</link>
+      <guid isPermaLink="true">https://occitanpro.com/blog/portrait-membre-format-entrepreneur-mois/</guid>
+      <pubDate>Mon, 02 Nov 2026 09:00:00 +0200</pubDate>
+      <category>Réseau local</category>
+      <description>Chaque mois, le club d'entrepreneurs Occitan Pro met en lumière un de ses membres, valorisant ainsi l'engagement et le dynamisme des TPE locales des Hautes-Pyrénées. Ce portrait mensuel permet de découvrir le parcours, les réussites et les défis de ces entrepreneurs qui contribuent activement à la vitalité…</description>
+    </item>
 
     <item>
       <title>Stratégies efficaces pour booster votre activité locale</title>
