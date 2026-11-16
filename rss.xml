@@ -6,13 +6,22 @@
     <description>Réseautage, recommandation entre professionnels et vie du club d'entrepreneurs des Hautes-Pyrénées.</description>
     <language>fr-FR</language>
     <copyright>Occitan Pro</copyright>
-    <lastBuildDate>Mon, 09 Nov 2026 09:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 09:00:00 +0200</lastBuildDate>
     <atom:link href="https://occitanpro.com/rss.xml" rel="self" type="application/rss+xml" />
     <image>
       <url>https://occitanpro.com/assets/logo.jpg</url>
       <title>Blog Occitan Pro</title>
       <link>https://occitanpro.com/blog/</link>
     </image>
+
+    <item>
+      <title>Réussir votre événement professionnel à Tarbes</title>
+      <link>https://occitanpro.com/blog/comment-organiser-evenement-professionnel-tarbes/</link>
+      <guid isPermaLink="true">https://occitanpro.com/blog/comment-organiser-evenement-professionnel-tarbes/</guid>
+      <pubDate>Mon, 16 Nov 2026 09:00:00 +0200</pubDate>
+      <category>Réseau local</category>
+      <description>Organiser un événement professionnel à Tarbes, au cœur des Hautes-Pyrénées, peut être un défi passionnant. Que vous soyez une TPE locale ou un artisan du 65, il est essentiel de bien planifier pour garantir le succès de votre événement. Voici quelques conseils pratiques pour vous aider à orchestrer une rencontre…</description>
+    </item>
 
     <item>
       <title>Pourquoi intégrer un réseau d'affaires à Orleix ?</title>
