@@ -6,13 +6,22 @@
     <description>Réseautage, recommandation entre professionnels et vie du club d'entrepreneurs des Hautes-Pyrénées.</description>
     <language>fr-FR</language>
     <copyright>Occitan Pro</copyright>
-    <lastBuildDate>Mon, 16 Nov 2026 09:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 09:00:00 +0200</lastBuildDate>
     <atom:link href="https://occitanpro.com/rss.xml" rel="self" type="application/rss+xml" />
     <image>
       <url>https://occitanpro.com/assets/logo.jpg</url>
       <title>Blog Occitan Pro</title>
       <link>https://occitanpro.com/blog/</link>
     </image>
+
+    <item>
+      <title>Les pièges à éviter pour les entrepreneurs débutants</title>
+      <link>https://occitanpro.com/blog/erreurs-courantes-entrepreneurs-debutants-bigorre/</link>
+      <guid isPermaLink="true">https://occitanpro.com/blog/erreurs-courantes-entrepreneurs-debutants-bigorre/</guid>
+      <pubDate>Mon, 23 Nov 2026 09:00:00 +0200</pubDate>
+      <category>Réseau local</category>
+      <description>Lancer une entreprise dans les Hautes-Pyrénées, que ce soit à Tarbes ou dans la vallée de l'Adour, peut être une aventure enrichissante, mais semée d'embûches. Nombreux sont les entrepreneurs qui trébuchent sur des erreurs communes. Être conscient de ces pièges peut vous aider à naviguer plus sereinement dans cette…</description>
+    </item>
 
     <item>
       <title>Réussir votre événement professionnel à Tarbes</title>
